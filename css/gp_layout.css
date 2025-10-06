@@ -5,8 +5,8 @@
    Tutorial 5
    Case Problem 1
    
-   Author:   
-   Date:     
+   Author:   Noah Schatz
+   Date:     10/06/25
    
    Filename: gp_layout.css
 
@@ -19,7 +19,7 @@
 
 /* Import Basic Design Styles Used on All Screens */
 
-@import url("gp_designs.css");
+@import url("../css/gp_designs.css");
 
 /* Flex Layout Styles */
 
