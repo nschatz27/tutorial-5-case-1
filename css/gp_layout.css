@@ -23,7 +23,22 @@
 
 /* Flex Layout Styles */
 
+body {
+   display: -webkit-flex;
+   display: flex;
+   -webkit-flex-flow: row wrap;
+   flex-flow: row wrap;
+}
 
+section#sheet {
+   -webkit-flex: 3 1 301px;
+   flex: 3 1 301px;
+}
+
+article {
+   -webkit-flex: 3 1 180px;
+   flex: 3 1 301px;
+}
 
 
 
@@ -32,7 +47,23 @@
    ============================================
 */
 
+@media only screen and (max-width: 480px) {
 
+   .panel {
+      width: 100%;
+   }
+
+   nav.horizontal {
+      -webkit-order: 99;
+         order: 99;
+   }
+
+   body footer {
+      -webkit-order: 100;
+      order: 100;
+   }
+
+}
 
 
 /* ===================================================
@@ -40,3 +71,16 @@
    ===================================================
 */
 
+@media only screen and (min-width: 481) {
+
+   nav.horizontal ul {
+      display: -webkit-flex;
+      display: flex;
+      -webkit-flex-flow: row nowrap;
+      flex-flow: row nowrap;
+      height: 40px;
+   }
+
+}
+
+html 426
