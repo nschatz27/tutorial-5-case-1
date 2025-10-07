@@ -36,8 +36,8 @@ section#sheet {
 }
 
 article {
-   -webkit-flex: 3 1 180px;
-   flex: 3 1 301px;
+   -webkit-flex: 1 3 180px;
+   flex: 1 3 180px;
 }
 
 
@@ -58,9 +58,9 @@ article {
          order: 99;
    }
 
-   body footer {
-      -webkit-order: 100;
-      order: 100;
+   body > footer {
+      -webkit-order:100;
+      order:100;
    }
 
 }
@@ -71,7 +71,7 @@ article {
    ===================================================
 */
 
-@media only screen and (min-width: 481) {
+@media only screen and (min-width: 480px) {
 
    nav.horizontal ul {
       display: -webkit-flex;
@@ -81,6 +81,25 @@ article {
       height: 40px;
    }
 
-}
+   nav.horizontal ul li {
+      -webkit-flex: 1 1 auto;
+      flex: 1 1 auto;
+   }
 
-html 426
+   img.panel.size1 {
+      width: 100%;
+   }
+
+   img.panel.size2 {
+      width: 60%;
+   }
+
+   img.panel.size3 {
+      width: 40%;
+   }
+
+   img.panel.size4 {
+      width: 30%;
+   }
+
+}

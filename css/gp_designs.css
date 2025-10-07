@@ -33,7 +33,7 @@ body {
 }
 	
 body > header {
-	background: url("gp_back1.png") center center / cover no-repeat;
+	background: url("../png/gp_back1.png") center center / cover no-repeat;
 	text-align: center;	
 	width: 100%;
 }
